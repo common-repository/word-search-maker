@@ -1,0 +1,40 @@
+#wsm_html
+{
+font-size:100%;
+}
+#wsm_solution_id
+{
+visibility:hidden;
+}
+table.wsm_words, table.wsm_puzzle, table.wsm_solution
+{
+border-collapse:collapse;
+margin:1.6em auto 1.6em auto !important;
+font-size:1.2em;
+}
+table.wsm_puzzle, table.wsm_solution
+{
+border: 0.8em inset black !important;
+}
+table.wsm_words
+{
+border:0px !important;
+}
+td.wsm_words, tr.wsm_words
+{
+text-align:left;
+padding:0.2em 0.7em 0.2em 0.7em !important;
+border:0px !important;
+vertical-align:top;
+}
+td.wsm_puzzle, tr.wsm_puzzle, td.wsm_solution, tr.wsm_solution
+{
+text-align:center;
+padding:3px !important;
+border:1px solid black;
+margin: 0;
+}
+td.wsm_puzzle, td.wsm_solution {
+width: 1.8em !important;
+height: 1.8em !important;
+}
